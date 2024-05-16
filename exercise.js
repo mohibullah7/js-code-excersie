@@ -21,3 +21,12 @@ console.log(valend.padEnd(11,'*'));
 
 let repeatme= "mohib khan";
 console.log(repeatme.repeat(3));
+
+let repl = "mohibullah";
+console.log(repl.replace('mohibullah',90090));
+
+// let use replace in button when we press button and it chnage the string data 
+function replStr(){
+  let replVal = document.getElementById('demo').innerHTML;
+  document.getElementById('demo').innerHTML=replVal.replace("mohib khan",'rauf khan');
+}
