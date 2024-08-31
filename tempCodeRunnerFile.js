@@ -1,3 +1,3 @@
-
-let repl = "mohibullah";
-console.log(repl.replace('mohibullah',90090));
+let replAll = "Dogs are very tall , dogs are very big";
+let rep =replAll.replaceAll('Dogs','cats',);
+console.log(rep);
